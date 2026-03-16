@@ -1,0 +1,58 @@
+/**index.wxss**/
+page {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.container {
+  background-color: #f6f6f6;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.QRcodeBox{
+  display: flex;
+  width: 750rpx;
+  height: 100rpx;
+  border-radius: 8px;
+  background-color: green;
+  
+}
+.menu {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.menu-item {
+  margin: 10px 0;
+  padding: 15px;
+  text-align: center;
+  background-color: #1AAD19;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.course-item{ 
+  padding: 10px;
+  background-color: rgb(245, 245, 245); /* 更浅的背景色，突出嵌套层级 */
+  border-radius: 5px;
+  color: #000000;
+  font-size: 16px; /* 字体稍微小一点，与菜单项区分 */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  display: flex;
+  justify-content: space-between; /* 课程信息水平排列 */
+  align-items: center;
+}
+.menu-item:hover {
+  background-color: #128C14;
+}
+

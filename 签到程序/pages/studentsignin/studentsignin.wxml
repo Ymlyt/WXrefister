@@ -1,0 +1,4 @@
+<!--pages/studentsignin/studentsignin.wxml-->
+<view class="menu-item" bindtap="navigateToSignin">
+      签到
+</view>

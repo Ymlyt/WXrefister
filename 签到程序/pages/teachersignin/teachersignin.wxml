@@ -1,0 +1,6 @@
+<!--pages/teachersignin/teachersignin.wxml-->
+
+
+<view class="menu-item" bindtap="navigateToSignin">
+      发起签到
+</view>

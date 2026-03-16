@@ -1,0 +1,55 @@
+{
+  "entryPagePath": "pages/index/index",
+
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/my/my",
+    "pages/register/register",
+    "pages/mymessage/mymessage",
+    "pages/signin/signin",
+    "pages/signin1/signin1",
+    "pages/teachersignin/teachersignin",
+    "pages/studentsignin/studentsignin"
+  ],
+  "window": {
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#f3514f",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "backgroundTextStyle":"light"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于签到功能" 
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "主页",
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/tarbar/手机.png",
+        "selectedIconPath": "assets/tarbar/手机.png"
+
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "assets/tarbar/我的.png",
+        "selectedIconPath": "assets/tarbar/我的.png"
+        
+      }
+
+
+    ]
+
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+
+}

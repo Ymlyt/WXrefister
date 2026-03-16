@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="menu">
+    <view class="menu-item" bindtap="fetchCourses">
+      我的课程
+    </view>
+    <!-- 遍历 courses 数组，显示每个课程 -->
+    <view wx:for="{{course}}" wx:key="teacherid" bindtap="onCourseClick" data-coursename="{{item.coursename}}">
+      <view class="course-item">{{item.coursename}}</view>
+    </view>
+  </view>
+</view>

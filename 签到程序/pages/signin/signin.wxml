@@ -1,0 +1,25 @@
+<view class="container">
+  <button bindtap="getLocation">获取当前位置</button>
+  
+  <!-- 显示定位信息 -->
+  <view>
+    <text>纬度：{{latitude}}</text>
+    <text>经度：{{longitude}}</text>
+  </view>
+  
+  <!-- 时间选择器 -->
+  <view class="time-picker">
+    <view class="time-row">
+      <text>起始时间：</text>
+      <picker mode="time" start="{{currentTime}}" value="{{startTime}}" bindchange="onStartTimeChange">
+        <view class="picker">{{startTime}}</view>
+      </picker>
+    </view>
+    <view class="time-row">
+      <text>结束时间：</text>
+      <picker mode="time" start="{{startTime}}" value="{{endTime}}" bindchange="onEndTimeChange">
+        <view class="picker">{{endTime}}</view>
+      </picker>
+    </view>
+  </view>
+</view>

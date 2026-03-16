@@ -1,0 +1,38 @@
+/* pages/register/register.wxss */
+.container {
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.picker {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 650rpx;
+}
+
+.picker-view {
+  color: #333;
+}
+
+.btn {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #1aad19;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}

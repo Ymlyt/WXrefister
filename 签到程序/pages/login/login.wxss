@@ -1,0 +1,51 @@
+/* 可以复用注册页面样式 */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.form {
+  width: 80%;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.picker {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007aff;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+.registerbtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #f34343;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10rpx;
+}

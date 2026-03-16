@@ -1,0 +1,9 @@
+<view class="container">
+  <button bindtap="getLocation">获取当前位置</button>
+  
+  <!-- 显示定位信息 -->
+  <view>
+    <text>纬度：{{latitude}}</text>
+    <text>经度：{{longitude}}</text>
+  </view>
+</view>

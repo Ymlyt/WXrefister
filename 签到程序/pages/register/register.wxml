@@ -1,0 +1,15 @@
+<!--pages/register/register.wxml-->
+<view class="container">
+  <view class="form">
+    <input class="input" placeholder="学号" bindinput="inputStuid" />
+    <input class="input" placeholder="姓名" bindinput="inputName" />
+    
+    <!-- 身份选择器 -->
+    <picker class="picker" mode="selector" range="{{roleOptions}}" bindchange="selectRole">
+      <view class="picker-view">{{role || '请选择身份（学生/教师）'}}</view>
+    </picker>
+
+    <input class="input" placeholder="密码" password="true" bindinput="inputPassword" />
+    <button class="btn" bindtap="register">注册</button>
+  </view>
+</view>

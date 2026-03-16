@@ -1,0 +1,57 @@
+<view class="container">
+  <view class="header">
+    <text class="logo">教学平台</text>
+    <text class="subtitle"></text>
+  </view>
+<view>
+{{this.name}}
+</view>
+  <view class="profile">
+    <view class="avatar"></view>
+    <text class="name">{{name}}\n</text>
+    <text class="university">{{role}}</text>
+  </view>
+
+  <view class="menu">
+    <view class="menu-item" bind:tap="login">
+      <image class="icon" src="" />
+      <text>登录名</text>
+      <text class="value">{{sztuid}}</text>
+    </view>
+
+    <view class="menu-item">
+      <image class="icon" src="" />
+      <text>密码</text>
+      <text class="action">修改</text>
+    </view>
+
+    <view class="menu-item">
+      <image class="icon" src="" />
+      <text>系统消息</text>
+    </view>
+
+    <view class="menu-item">
+      <image class="icon" src="" />
+      <text>系统公告</text>
+    </view>
+
+    <view class="menu-item">
+      <image class="icon" src="" />
+      <text>在线客服</text>
+    </view>
+
+    <view class="menu-item">
+      <image class="icon" src="" />
+      <text>操作手册</text>
+    </view>
+
+    <view class="menu-item">
+      <image class="icon" src="" />
+      <text>常见问题</text>
+    </view>
+    <view class="exit-item" bind:tap="exit">
+      <image class="icon" src="" />
+      <text>退出</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+/* pages/teachersignin/teachersignin.wxss */
+.menu-item {
+  margin: 10px 0;
+  padding: 15px;
+  text-align: center;
+  background-color: #1AAD19;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+}
